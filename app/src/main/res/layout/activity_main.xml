@@ -9,6 +9,12 @@
         android:layout_height="wrap_content"
         android:visibility="gone"/>
 
+    <Button
+        android:id="@+id/myLcation"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="我的位置"/>
+
     <com.baidu.mapapi.map.MapView
         android:id="@+id/bmapView"
         android:layout_width="match_parent"
